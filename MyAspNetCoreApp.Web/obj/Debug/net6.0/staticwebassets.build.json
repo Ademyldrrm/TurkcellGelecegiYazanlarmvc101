@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZIwq500s7hGTZ3own7gJ5M+5ag88Kngk8eQHy1wj/c=",
+  "Hash": "B8UI3IoWVcP8gxQQgVDJ8RP/HJIbf4ecPt2KFlxYx0g=",
   "Source": "MyAspNetCoreApp.Web",
   "BasePath": "_content/MyAspNetCoreApp.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\AdemYildirim\\source\\repos\\mvc101\\MyAspNetCoreApp.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAspNetCoreApp.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\AdemYildirim\\source\\repos\\mvc101\\MyAspNetCoreApp.Web\\wwwroot\\css\\Examplecss.css",
+      "SourceId": "MyAspNetCoreApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AdemYildirim\\source\\repos\\mvc101\\MyAspNetCoreApp.Web\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreApp.Web",
+      "RelativePath": "css/Examplecss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Examplecss.css"
     },
     {
       "Identity": "C:\\Users\\AdemYildirim\\source\\repos\\mvc101\\MyAspNetCoreApp.Web\\wwwroot\\css\\site.css",
