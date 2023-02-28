@@ -4,10 +4,10 @@
     {
         private static List<Product> _products = new List<Product>()
         {
-            new() { Id = 1, Name = "Kalem1", Price = 100, Stock = 50 },
-            new() { Id = 2, Name = "Kalem2", Price = 200, Stock = 60 },
-            new () { Id = 3, Name = "Kalem3", Price = 300, Stock = 70 },
-            new () { Id = 4, Name = "Kalem4", Price = 400, Stock = 80 },
+            //new() { Id = 1, Name = "Kalem1", Price = 100, Stock = 50 },
+            //new() { Id = 2, Name = "Kalem2", Price = 200, Stock = 60 },
+            //new () { Id = 3, Name = "Kalem3", Price = 300, Stock = 70 },
+            //new () { Id = 4, Name = "Kalem4", Price = 400, Stock = 80 },
     }; 
 
         public List<Product> GetAll() => _products;
