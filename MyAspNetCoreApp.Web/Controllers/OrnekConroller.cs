@@ -2,20 +2,20 @@
 
 namespace MyAspNetCoreApp.Web.Controllers
 {
-    public class Product
+    public class Product2
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string? Name2 { get; set; }
     }
 
     public class OrnekConroller : Controller
     {
         public IActionResult Index()
         {
-            var productList = new List<Product>()
+            var productList = new List<Product2>()
             {
-                new() { Id = 1, Name = "Tv" },
-                new() { Id = 2, Name = "Kalem" }
+                new() { Id = 1, Name2 = "Tv" },
+                new() { Id = 2, Name2 = "Kalem" }
             };
                 
 
