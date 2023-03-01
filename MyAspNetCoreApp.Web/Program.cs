@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MyAspNetCoreApp.Web.Helpers;
 using MyAspNetCoreApp.Web.Models;
 
 namespace MyAspNetCoreApp.Web
@@ -14,8 +15,8 @@ namespace MyAspNetCoreApp.Web
                 options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
             });
 
-
-
+            builder.Services.AddTransient<IHelper, Helper>();
+           
 
 
             // Add services to the container.
@@ -46,4 +47,5 @@ namespace MyAspNetCoreApp.Web
             app.Run();
         }
     }
+
 }
